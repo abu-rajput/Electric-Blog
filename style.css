@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+                                /* head */
+header{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    padding:0rem 10rem;
+    align-items: center;
+}
+header h2{
+    font-size: 3.5rem;
+}
+                                /* aqua nav */
+.nav-1{
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(2, 127, 195);
+    font-size: 1.6rem;
+    padding:0rem 10rem;
+
+
+}
+.nav-1 ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem;
+    text-transform: capitalize;
+
+}
+.nav-1 ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-1 a:hover{
+}
+
+                            /* section sec1 */
+.sec-1{
+    width: 100%;
+    display: flex;
+    padding:0rem 10rem;
+
+}
+.sec-1 .width70{
+    width: 65%;
+    margin-top: 5rem;
+    padding: 0px 2rem;
+    /* background-color: blueviolet; */
+}
+.width70 .tesla{
+    font-size: 1.6rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.width70 h1{
+    font-size: 4.5rem;
+    font-weight: 300;
+}
+.width70  a{
+    text-decoration: none;
+}
+                                    /*  */
+.width70 #art-1{
+    display: flex;
+    gap: .3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+    margin-bottom: 5rem;
+
+}
+.width70 #art-1 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.width70 #art-1 span{
+    font-size: 1.4rem;
+}
+                            /* img box */
+.width70 .imgbox{
+    width: 92%;
+    height: 35rem;
+    border: .4rem solid lightblue;
+    position: relative;
+    margin-bottom: 3rem;
+}
+.width70 .imgbox img{
+    position: absolute;
+    width: 85%;
+    top :-3rem;
+    right: -3rem;
+}
+.width70 .content{
+    font-size: 1.6rem;
+    /* line-height: 2rem; */
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+}
+.width70 .vrline{
+    display: flex;
+    padding:1rem 3rem;
+
+}
+.width70 .vrline .line{
+    width: 1rem;
+    height: 10rem;
+    background-color: lightblue;
+}
+.width70 .vrline .firsttext{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 1rem 2rem;
+}
+                                /* top comment */
+.width70 .comment{
+    padding-left: 10rem;
+    font-size: 1.6rem;
+}
+.width70 .take h2{
+    font-size: 3.5rem;
+    margin: 2rem 0rem;
+}
+.width70 .comment .hrline{
+    width: 100%;
+    height: .4rem;
+    background-color: lightblue;
+}
+.width70 .comment p{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+                                /* take */
+
+.width70 .take{
+    margin-top: 2rem;
+}
+.width70 .take p{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+
+                            /* newsfeed */
+.width70 .newsfeed{
+    margin: 2rem 0rem;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(197, 196, 196, 0.737);
+}
+.width70 .newsfeed p{
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem;
+    font-style: italic;
+    font-weight: bold;
+}
+                                /* ftc */
+.width70 .ftc{
+    font-size: 1.8rem;
+    font-style: italic;
+    padding-bottom: 2rem;
+}
+
+                        /* vdo box */
+.width70 .vdo{
+    width: 100%;
+    height: 50rem;
+    border: .5rem solid lightblue;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.width70 .vdo ul{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+
+}
+.width70 .vdo ul img{
+    width: 5rem;
+    padding: 1rem;
+    margin-right:3rem;
+    border: .2rem solid black;
+}
+.width70 .vdo ul li{
+    line-height: 5rem;
+}
+.width70 .vdo video{
+    width: 100%;
+    height: 80%;
+
+}
+
+                            /* commentsection */
+.sec-1 .width70 .commentsec h1{
+    display: flex;
+}
+.sec-1 .width70 .commentsec h1 .cmtline{
+    width: 100%;
+    height: .5rem;
+    margin-top: 2.5rem;
+    margin-left:2rem;
+    background-color: lightblue;
+    /* background-color: black; */
+}
+
+.commentsec{
+    position: relative;
+}
+.commentsec .cmtview{
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.commentsec .cmtview h2{
+    font-size: 2.5rem;
+    color: rgb(66, 66, 66);
+
+}
+.commentsec .cmtview p{
+    line-height: 3.3rem;
+    font-size: 1.5rem;
+    margin-left: .7rem;
+    /* font-weight: 600; */
+    color: gray;
+    text-transform: capitalize;
+
+}
+.commentsec .cmtview #viewing{
+    right: 0rem;
+    position: absolute;
+}
+
+                        /* log in */
+.commentsec .login{
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+    font-size: 1.5rem;
+    right: 0rem;
+    margin: 2rem 0rem;
+}
+.commentsec .login a{
+    color: gray;
+
+}
+.commentsec #inputcmt input{
+    margin: 2rem 0rem;
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1rem ;
+    border-color: gray;
+    border-radius: .8rem;
+
+}
+
+                            /* guides */
+.guides{
+    margin:2rem 0rem;
+}
+.guides h1{
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+.guides h1 .guidline{
+    width: 100%;
+    height: .5rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    /* background-color: black; */
+    background-color: lightblue;
+}
+.guides img{
+    width: 15rem;
+    margin-right: 2rem;
+}
+.guides .withimg{
+    display: flex;
+}
+.guides .data{
+    font-size: 1.6rem;
+
+}
+
+                            /* Author */
+.width70 .author{
+    margin:2rem 0rem;
+}
+.author h1{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.author h1 .authorline{
+    width: 100%;
+    height: .5rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    /* background-color: black; */
+    background-color: lightblue;
+}
+.author img{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+}
+.author .details{
+    font-size: 1.6rem;
+}
+                            /* righ create width 30 */
+.sec-1 .width30{
+    width: 35%;
+    margin-top: 28rem;
+
+}
+.sec-1 .width30 h2{
+    font-size: 4.5rem;  
+    display: flex;
+}
+.sec-1 .width30 h2 div{
+    width: 50%;
+    height: .4rem;
+    margin-top: 2.5rem;
+    margin-left: 1rem;
+    /* background-color: black; */
+    background-color: lightblue;
+}
+.sec-1 .width30 p{
+    font-size: 2rem;
+}
+.sec-1 .width30 p span{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+                            /* crad  */
+.sec-1 .width30 .card-1{
+    width: 100%;
+    height: 10rem;
+    /* background-color: navy; */
+    display: flex;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+.sec-1 .width30 .card-1 img{
+    margin-right: 2rem;
+}
+.sec-1 .width30 .card-1 .data h3{
+    font-size: 1.7rem;
+    color: black;
+}
+
+.sec-1 .width30 a{
+text-decoration: none;
+}
+.sec-1 .width30 .card-1 .data h3 a{
+    color: black;
+}
+.width30 .card-1 .data #art-2{
+    display: flex;
+    gap: .5rem;
+    /* flex-wrap: wrap; */
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+    margin-bottom: 5rem;
+
+}
+.width30 .card-1 .data #art-2 img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.width30 .card-1 .data #art-2 .cmt1{
+    font-size: 1.2rem;
+}
+.width30 .card-1 .data #art-2 span{
+    font-size: 1.2rem;
+}
+
+                                                /* footer */
+footer{
+    width: 100%;
+    height: 25rem;
+    padding: 0rem 10rem;
+    background-color: rgba(0, 0, 0, 0.895);
+    margin-top: 2rem;
+    display: flex;
+}
+
+.left30{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+footer .left30 h2{
+    color:white;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+}
+
+                    /* right  */
+footer .right70{
+    width: 70%;
+    color: white;
+    margin-top: 5rem;
+}
+.right70{
+    font-size: 1.6rem;
+}
+.right70 h3{
+    font-weight: 300;
+}
+.right70 #add{
+
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color: rgba(255, 255, 255, 0.824);
+    
+}
+
+#addres{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+
+.social img{
+    width: 3rem;
+    padding: .5rem;
+    margin-right: .5rem;
+    background-color: white;
+}
